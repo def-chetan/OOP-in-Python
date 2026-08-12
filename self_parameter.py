@@ -4,14 +4,14 @@ class Employee:
     language = "python"
 
     # we can make finctions inside a class
-    def getInfo():
-        print(f"name = {name} , salary= {salary}")    # this is wrong
+    # def getInfo():
+    #     print(f"name = {name} , salary= {salary}")    # this is wrong
+
+    def getInfo(self):   # for that we need to pass a argument
+        print(f"name = {self.name} , salary= {self.salary}")    # this is wrong
 
 ch= Employee()
 
-print(ch.name,ch.salary,ch.language)
-
-ch.age = 20     
-ch.name='Hello'
-print (ch.age)
-print(ch.name)
+# the follow below both do the same
+ch.getInfo()
+Employee.getInfo(ch)
