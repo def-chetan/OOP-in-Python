@@ -7,7 +7,7 @@ class Employee:
         print(f"name = {self.name} , salary= {self.salary}")  
 
     # some funstions dont need any parameter , is doesnt need to use any of the variables , for that we use staticmethod and for that we use @staticmethod
-    @staticmethod
+    @staticmethod  #these are called decorators , as they use @
     def hi():
         print("hello brother")
 
