@@ -2,7 +2,7 @@
 #   class class_name:
 
 class Employee:
-    name= "Chetan"
+    name= "Chetan"      # These are class attribute
     salary = 100000
     language = "python"
 
@@ -14,3 +14,9 @@ ch= Employee()
 # to use the attribute of a class we use '.' 
 # variable.attribute
 print(ch.name,ch.salary,ch.language)
+
+#object attribute
+
+ch.age = 20     # this is a object attribute 
+
+print (ch.age)
