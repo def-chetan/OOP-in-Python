@@ -16,7 +16,7 @@ class coder(programmer):
             super().__init__()
 
             print("thisis a constructur of coder class")
-    c=3
+    c=4
 
 
 obj=coder()
