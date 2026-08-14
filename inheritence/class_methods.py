@@ -5,8 +5,7 @@
     
 
 # obj=emp()
-# # obj2=programmer()
-# # obj3=emp()
+
 # obj.a = 33
 # obj.show() # this will print 33 as. instance attribute gets more priority
 
@@ -22,5 +21,5 @@ obj=emp()
 # obj2=programmer()
 # obj3=emp()
 obj.a = 33
-obj.show() # this will print 33 as. instance attribute gets more priority
+obj.show() # this will print 33 as. instance attribute gets more priority , but when we put @classmethod then the class attribute will be shown
 
