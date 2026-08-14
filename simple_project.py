@@ -19,7 +19,7 @@ while (a!=n):
             print("The number is smaller")
         elif (a==n):
             list.append(a)
-            print (f"BINGO!!!!!! CORRECT GUESS!!!\nAttempts: {g} ")
+            print (f"BINGO!!!!!! CORRECT GUESS!!!\nAttempts:{g} ")
     else:
         print("Something went wrong")
 
