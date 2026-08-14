@@ -20,7 +20,7 @@ class coder(programmer):
 
 
 obj=coder()
-# obj2=programmer()
-# obj3=emp()
+obj2=programmer()
+obj3=emp()
 
 print(obj.a,obj.b, obj.c)
